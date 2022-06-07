@@ -1,0 +1,13 @@
+:root{
+ --primaria: #AF1E2D;
+ --secundaria: #FFCE00;
+ --escuro: #171717;
+ --clara: #F3F3F3;
+}
+
+body{
+    text-align: center;
+    background-color: #2f6b6d;
+    font-family: 'Courier New', Courier, monospace;
+}
+
