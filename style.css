@@ -11,3 +11,10 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
+[data-score]{
+    color:var(--clara);
+}
+
+[data-restart]{
+    color:var(--secundaria);
+}

@@ -1,5 +1,4 @@
 //interface do game
-
 let containerTamanho = 25; 
 let rows = 20;
 let cols = 20;
@@ -97,8 +96,13 @@ function mudarDirecao(e) {
     }
 }
 
+//codigos do score
+let scoreSeletor = document.querySelector('[data-score="score"]')
+let restartSeletor = document.querySelector('[data-restart="restart"]')
+let score = 0;
 
 function posicionarComida() {
     comidaX = Math.floor(Math.random() * cols) * containerTamanho
     comidaY = Math.floor(Math.random() * rows) * containerTamanho
+    scoreSeletor.innerHTML++;
 }
